@@ -1,0 +1,134 @@
+
+/* CSS Document */
+
+.play {
+	font-family: foo; src: url('../fonts/foo.ttf');
+	}
+
+body {
+	background: #ffffff url(../images/background-landscape1.png) no-repeat fixed !important;
+	margin: 0;
+	padding: 0;
+
+#page {
+  
+  min-height: 768px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#page.cover {
+  display: block;
+  height: 768px;
+	background: url(assets/images/cover.png) no-repeat;
+}
+
+.play {
+	font-family: "foo", Times, serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  position:absolute;
+  left:500px;
+  top:600px;
+  
+  
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+#page #note {
+	background-image: url(../images/z.png);
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-iteration-count: infinite;
+	left: 640px;
+	top: 460px;
+	opacity: 0;
+	}
+	
+#page #note1 {
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-name: note1;
+	}
+#page #note2 {
+	-webkit-animation-name: note2;
+	-webkit-animation-delay: .3s;
+	-webkit-animation-duration: 2s;
+	}
+#page #note3 {
+	-webkit-animation-name: note3;
+	-webkit-animation-delay: .6s;
+	-webkit-animation-duration: 4s;
+	}
+	
+@-webkit-keyframes note1 {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		}
+	50% {
+		opacity: 1;
+		}
+	80% {
+		opacity: 1;
+		}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1);
+		left: 540px;
+		top: 360px;
+		}
+	}
+@-webkit-keyframes note2 {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		}
+	50% {
+		opacity: 1;
+		}
+	80% {
+		opacity: 1;
+		}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1);
+		left: 600px;
+		top: 300px;
+		}
+	}
+@-webkit-keyframes note3 {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		}
+	50% {
+		opacity: 1;
+		}
+	80% {
+		opacity: 1;
+		}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1);
+		left: 400px;
+		top: 400px;
+		}
+	}
+
+#notecontainer {
+	position: absolute;
+	width: 768px;
+	height: 1024px;
+	top: 110px;
+	left: -10px;
+	}
+
+@media only screen and (max-device-width : 1024px) and (orientation : landscape) {
+	
+#page {
+	min-height: 768px;
+ }

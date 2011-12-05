@@ -1,0 +1,35 @@
+{
+    "hpub": 1,
+    "title": "The Lion and The Mouse an Aesops Fable",
+    "author": ["Liam Williams"],
+    "creator": ["Liam Williams"],
+    "date": "05-12-2011",
+    "url": "book://bakerframework.com/books/arthurconandoyle-thestudyinscarlet",
+
+    "orientation": "landscape",
+    "zoomable": false,
+
+    "-baker-background": "#000000",
+    "-baker-vertical-bounce": true,
+    "-baker-index-height": 202,
+    "-baker-media-autoplay": false,
+    "-baker-background-image-portrait": "book/gfx/background-portrait.png",
+    "-baker-background-image-landscape": "book/gfx/background-landscape.png",
+    "-baker-page-numbers-color": "#000000",
+    "-baker-page-numbers-alpha": "0",   
+    "-baker-rendering": "three-cards",
+
+    "contents": [
+        "bookcover.html",
+        "page01.html",
+        "page02.html",
+        "page03.html",
+        "page04.html",
+        "page05.html",
+        "page06.html",
+        "page07.html",
+        "page08.html",
+        "page09.html",
+   
+    ]
+}
